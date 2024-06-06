@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 10vh;
+  background-color: rgb(105, 16, 94);
+  color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.7);
+}
+
+.partHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.headerTitle {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+.headerSeperator {
+  margin: 20px;
+  height: 80%;
+  width: 1px;
+  background-color: white;
+}
+
+.iconsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.iconAndTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.itemForIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.iconStyle {
+  width: 30px;
+  height: 30px;
+}
+
+.textTime {
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.logosContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.logoStyle {
+  width: 70px;
+  height: auto;
+}
+
+.textLogoSeparator {
+  margin: 0 20px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+/* BODY */
+
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: aliceblue;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(5, 62, 150);
+  font-size: 1.4em;
+  color: #fff;
+  font-weight: 500;
+  padding: 0 40px;
+  font-weight: 600;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.itemContainer, .itemContainerImpair div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.itemContainer div:nth-child(1) {
+  flex: 2;
+}
+
+.itemContainer div:nth-child(2) {
+  flex: 2;
+}
+
+.itemContainer div:nth-child(3) {
+  flex: 6;
+}
+
+.itemContainerImpair {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(5, 25, 93);
+  font-size: 1.4em;
+  color: #fff;
+  font-weight: 500;
+  padding: 0 40px;
+  font-weight: 600;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.itemContainerImpair div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.itemContainerImpair div:nth-child(1) {
+  flex: 2;
+}
+
+.itemContainerImpair div:nth-child(2) {
+  flex: 2;
+}
+
+.itemContainerImpair div:nth-child(3) {
+  flex: 6;
+}
+
+.itemTime {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: rgb(255, 234, 48);
+}
+
+.itemMode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.transportMode {
+  font-size: 1em;
+}
+
+.transportNumber {
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.itemDirection {
+  font-size: 1.7em;
+  font-weight: 400;
+}
